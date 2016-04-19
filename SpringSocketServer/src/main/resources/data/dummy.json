@@ -1,0 +1,260 @@
+{
+                "DBDataNodeIPs": "10.0.0.188",
+                "subnet": {
+                                "development": {
+                                                "name": "ServiceDept"
+                                },
+                                "operation": {
+                                                "name": "ServiceDept"
+                                },
+                                "maintenance": {
+                                                "name": "ServiceDept"
+                                }
+                },
+                "NginxIPs": "10.0.0.208",
+                "mysql_56": {
+                                "replication": {
+                                                "password": "javadude"
+                                },
+                                "max_connections": 151,
+                                "root": {
+                                                "password": "javadude"
+                                }
+                },
+                "FIGDashboardIPs": "10.0.0.211",
+                "instances": {
+                                "Nginx0": {
+                                                "private_ip": "10.0.0.208"
+                                },
+                                "CoOrdinator0": {
+                                                "private_ip": "10.0.0.53"
+                                },
+                                "DbMaster0": {
+                                                "private_ip": "10.0.0.178"
+                                },
+                                "DbSlave0": {
+                                                "private_ip": "10.0.0.188"
+                                },
+                                "HAProxy0": {
+                                                "public_ip": "54.254.217.126",
+                                                "private_ip": "10.0.0.167"
+                                },
+                                "NaptServer": {
+                                                "public_ip": "54.169.227.5",
+                                                "private_ip": "10.0.0.69"
+                                },
+                                "FIGDashboard0": {
+                                                "private_ip": "10.0.0.211"
+                                }
+                },
+                "aws-cli": {
+                                "config": {
+                                                "region_name": "ap-southeast-1",
+                                                "aws_secret_acsess_key": "",
+                                                "aws_acsess_key_id": ""
+                                }
+                },
+                "was": {
+                                "*": {
+                                                "oob_thread_pool": {
+                                                                "max_threads": 4,
+                                                                "min_threads": 4
+                                                }
+                                }
+                },
+                "resources": {
+                                "tiers": [{
+                                                "Nginx": {
+                                                                "description": null,
+                                                                "servers": [{
+                                                                                "id": 0,
+                                                                                "description": null,
+                                                                                "connectionInformation": {
+                                                                                                "protocol": "SSH",
+                                                                                                "port": 10005,
+                                                                                                "auth": {
+                                                                                                                "keyfile": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEArbcYjCeXT3zrIA6y3CSfR+oA528krRHjb+8G0PzQ/yVOKVhKUsXKx7Q0h/9L\nJ+i9b00vQax9VdPe5fQXrlQgFbtYtbEe5cjA/QeBnbg+cnW82U8nzhOGFgfBqZUX4yCjyUzQUGa+\n+aRf0kRwlTDDukDWC2P490x46GKi/c6wxeVJU1NKgLAY9TsXNxXnnfRKgSh1FFyA7a2kkStoL5IR\nT+O18NLRT4gmudgAPsnRKDcNgH2kXLlJMRN4KdnmDuz9Sg4xpnw0+CsnsQ8aXo7p3/BaqiMkqAeH\nxBATHeWx41aNwp6FjWSScKTkxfr0g1GQEYqG4E2icIik28f7cVGx9QIDAQABAoIBAQCaGmVCYBTQ\nxQZoR+HPfQV37FSk+mnUxpu2vpqTZtOYpGV0NAiq6R/8jRZU1tq7KrJyPEyBvBzruKpx4FnpomNc\nI/iMJfY87hyV2sTXP4zWSTAgryGmpJc8j+DzKXopWNkzSFs8GAmuuGzwwRoGn13iqoW3URaZe1N/\nA5GICoWy5zl7Gy61UalnL1PiVVa/1vzIcoTgfV8pSFLNZS2MnK55EyWLE+YfXwSv3KTDWzvRi1Tt\nqwi0q4Qx1fBnWiIxQb2vtXaMtSCk54CE+wLlcp2vSJoO8KtyHagmpqvNtIcdpd3DfFImF7FyYwxe\n/jT+XjS1mEU3/451SrGJS4kk2myBAoGBAP792UmHX23qusdk8dMROdz+SmwEtAO596BqM4tFPTQe\nAUfX3f3mDS4ivzfuHmniyxhQFbaaSg/H6f4nHU0d1k+OAxljM5+YJecmsDy87aUnJY33JAXg/WNa\nqGVWRWg019D2aKibonoFKbY+aiGdUahsSqPjT/JUAvjNF/FmlwhRAoGBAK5m9rBdVJV6iTXpykh3\n61iLi4CrHJsmhVv0oSzT4eOAYTLl9+ljRoS8LzpTZk0n9V2WWgn+sD+mE7Ac6p008+orBzyAWaLQ\nWTVRmKWH9fTzqcuVMRQb9QXTL8f4FClwlIKUdIqePt6qZMG5MoW/8x8nkxjSbxSDGMQAri3ZFEpl\nAoGBAO6gev7vm+POXlsJYbGHlmH064qo4Bn4p/9MQ85azor+ZW5pWssnxj/drptV0MqAvlWTZK6N\nNzALgzQgQLCRcqTino3co0wAY8AtGZLNr4v11ZREq0aBJkAbcCndkXiSs0FPx+O6OlP8juuI/2NT\nyT5XkYZLzN5XtqxFqtlzi3XxAoGAHw18PRjRF7Byv+O5vb+EawaltypAdKueMSpUjFvJq61PITXr\nN2YSx02Ohy8UVwaXXKuJqp/rl9mlRcVQTN+B0p8IsdAUpbW9PI4jxM15kLzV7cbJr0/vB7N7nXph\ndKNz/fAa9BeLEDB8sjWcdk4gJtrwCQpm9tsEzNlmKgmt4DUCgYAsjZo4rTicprFF/Qmu1B6x4Cbl\nJBo4BX7LmvB/ZLOUNHqtvhIhMV5H4d2akY5fAxQne21HWzt1LtcfgaBTac1HRDgZfTaDq5oggZO5\naldofTDYeggrvrWCCs9MvFfAOq2KFvhK4bqwPj0wzuYCYpvdetD0G9UufAtrXmSBevUUiA==\n-----END RSA PRIVATE KEY-----\n",
+                                                                                                                "type": "PublicKey",
+                                                                                                                "user": "root"
+                                                                                                },
+                                                                                                "ip": "54.169.227.5"
+                                                                                },
+                                                                                "networkInterfaces": [{
+                                                                                                "networkId": "ServiceDept",
+                                                                                                "privateIp": "10.0.0.208",
+                                                                                                "publicIp": null,
+                                                                                                "macaddress": "06:52:82:38:54:3d"
+                                                                                }]
+                                                                }]
+                                                },
+                                                "DbMaster": {
+                                                                "description": null,
+                                                                "servers": [{
+                                                                                "id": 0,
+                                                                                "description": null,
+                                                                                "connectionInformation": {
+                                                                                                "protocol": "SSH",
+                                                                                                "port": 10001,
+                                                                                                "auth": {
+                                                                                                                "keyfile": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEArbcYjCeXT3zrIA6y3CSfR+oA528krRHjb+8G0PzQ/yVOKVhKUsXKx7Q0h/9L\nJ+i9b00vQax9VdPe5fQXrlQgFbtYtbEe5cjA/QeBnbg+cnW82U8nzhOGFgfBqZUX4yCjyUzQUGa+\n+aRf0kRwlTDDukDWC2P490x46GKi/c6wxeVJU1NKgLAY9TsXNxXnnfRKgSh1FFyA7a2kkStoL5IR\nT+O18NLRT4gmudgAPsnRKDcNgH2kXLlJMRN4KdnmDuz9Sg4xpnw0+CsnsQ8aXo7p3/BaqiMkqAeH\nxBATHeWx41aNwp6FjWSScKTkxfr0g1GQEYqG4E2icIik28f7cVGx9QIDAQABAoIBAQCaGmVCYBTQ\nxQZoR+HPfQV37FSk+mnUxpu2vpqTZtOYpGV0NAiq6R/8jRZU1tq7KrJyPEyBvBzruKpx4FnpomNc\nI/iMJfY87hyV2sTXP4zWSTAgryGmpJc8j+DzKXopWNkzSFs8GAmuuGzwwRoGn13iqoW3URaZe1N/\nA5GICoWy5zl7Gy61UalnL1PiVVa/1vzIcoTgfV8pSFLNZS2MnK55EyWLE+YfXwSv3KTDWzvRi1Tt\nqwi0q4Qx1fBnWiIxQb2vtXaMtSCk54CE+wLlcp2vSJoO8KtyHagmpqvNtIcdpd3DfFImF7FyYwxe\n/jT+XjS1mEU3/451SrGJS4kk2myBAoGBAP792UmHX23qusdk8dMROdz+SmwEtAO596BqM4tFPTQe\nAUfX3f3mDS4ivzfuHmniyxhQFbaaSg/H6f4nHU0d1k+OAxljM5+YJecmsDy87aUnJY33JAXg/WNa\nqGVWRWg019D2aKibonoFKbY+aiGdUahsSqPjT/JUAvjNF/FmlwhRAoGBAK5m9rBdVJV6iTXpykh3\n61iLi4CrHJsmhVv0oSzT4eOAYTLl9+ljRoS8LzpTZk0n9V2WWgn+sD+mE7Ac6p008+orBzyAWaLQ\nWTVRmKWH9fTzqcuVMRQb9QXTL8f4FClwlIKUdIqePt6qZMG5MoW/8x8nkxjSbxSDGMQAri3ZFEpl\nAoGBAO6gev7vm+POXlsJYbGHlmH064qo4Bn4p/9MQ85azor+ZW5pWssnxj/drptV0MqAvlWTZK6N\nNzALgzQgQLCRcqTino3co0wAY8AtGZLNr4v11ZREq0aBJkAbcCndkXiSs0FPx+O6OlP8juuI/2NT\nyT5XkYZLzN5XtqxFqtlzi3XxAoGAHw18PRjRF7Byv+O5vb+EawaltypAdKueMSpUjFvJq61PITXr\nN2YSx02Ohy8UVwaXXKuJqp/rl9mlRcVQTN+B0p8IsdAUpbW9PI4jxM15kLzV7cbJr0/vB7N7nXph\ndKNz/fAa9BeLEDB8sjWcdk4gJtrwCQpm9tsEzNlmKgmt4DUCgYAsjZo4rTicprFF/Qmu1B6x4Cbl\nJBo4BX7LmvB/ZLOUNHqtvhIhMV5H4d2akY5fAxQne21HWzt1LtcfgaBTac1HRDgZfTaDq5oggZO5\naldofTDYeggrvrWCCs9MvFfAOq2KFvhK4bqwPj0wzuYCYpvdetD0G9UufAtrXmSBevUUiA==\n-----END RSA PRIVATE KEY-----\n",
+                                                                                                                "type": "PublicKey",
+                                                                                                                "user": "root"
+                                                                                                },
+                                                                                                "ip": "54.169.227.5"
+                                                                                },
+                                                                                "networkInterfaces": [{
+                                                                                                "networkId": "ServiceDept",
+                                                                                                "privateIp": "10.0.0.178",
+                                                                                                "publicIp": null,
+                                                                                                "macaddress": "06:20:b9:e5:dc:71"
+                                                                                }]
+                                                                }]
+                                                },
+                                                "FIGDashboard": {
+                                                                "description": null,
+                                                                "servers": [{
+                                                                                "id": 0,
+                                                                                "description": null,
+                                                                                "connectionInformation": {
+                                                                                                "protocol": "SSH",
+                                                                                                "port": 10003,
+                                                                                                "auth": {
+                                                                                                                "keyfile": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEArbcYjCeXT3zrIA6y3CSfR+oA528krRHjb+8G0PzQ/yVOKVhKUsXKx7Q0h/9L\nJ+i9b00vQax9VdPe5fQXrlQgFbtYtbEe5cjA/QeBnbg+cnW82U8nzhOGFgfBqZUX4yCjyUzQUGa+\n+aRf0kRwlTDDukDWC2P490x46GKi/c6wxeVJU1NKgLAY9TsXNxXnnfRKgSh1FFyA7a2kkStoL5IR\nT+O18NLRT4gmudgAPsnRKDcNgH2kXLlJMRN4KdnmDuz9Sg4xpnw0+CsnsQ8aXo7p3/BaqiMkqAeH\nxBATHeWx41aNwp6FjWSScKTkxfr0g1GQEYqG4E2icIik28f7cVGx9QIDAQABAoIBAQCaGmVCYBTQ\nxQZoR+HPfQV37FSk+mnUxpu2vpqTZtOYpGV0NAiq6R/8jRZU1tq7KrJyPEyBvBzruKpx4FnpomNc\nI/iMJfY87hyV2sTXP4zWSTAgryGmpJc8j+DzKXopWNkzSFs8GAmuuGzwwRoGn13iqoW3URaZe1N/\nA5GICoWy5zl7Gy61UalnL1PiVVa/1vzIcoTgfV8pSFLNZS2MnK55EyWLE+YfXwSv3KTDWzvRi1Tt\nqwi0q4Qx1fBnWiIxQb2vtXaMtSCk54CE+wLlcp2vSJoO8KtyHagmpqvNtIcdpd3DfFImF7FyYwxe\n/jT+XjS1mEU3/451SrGJS4kk2myBAoGBAP792UmHX23qusdk8dMROdz+SmwEtAO596BqM4tFPTQe\nAUfX3f3mDS4ivzfuHmniyxhQFbaaSg/H6f4nHU0d1k+OAxljM5+YJecmsDy87aUnJY33JAXg/WNa\nqGVWRWg019D2aKibonoFKbY+aiGdUahsSqPjT/JUAvjNF/FmlwhRAoGBAK5m9rBdVJV6iTXpykh3\n61iLi4CrHJsmhVv0oSzT4eOAYTLl9+ljRoS8LzpTZk0n9V2WWgn+sD+mE7Ac6p008+orBzyAWaLQ\nWTVRmKWH9fTzqcuVMRQb9QXTL8f4FClwlIKUdIqePt6qZMG5MoW/8x8nkxjSbxSDGMQAri3ZFEpl\nAoGBAO6gev7vm+POXlsJYbGHlmH064qo4Bn4p/9MQ85azor+ZW5pWssnxj/drptV0MqAvlWTZK6N\nNzALgzQgQLCRcqTino3co0wAY8AtGZLNr4v11ZREq0aBJkAbcCndkXiSs0FPx+O6OlP8juuI/2NT\nyT5XkYZLzN5XtqxFqtlzi3XxAoGAHw18PRjRF7Byv+O5vb+EawaltypAdKueMSpUjFvJq61PITXr\nN2YSx02Ohy8UVwaXXKuJqp/rl9mlRcVQTN+B0p8IsdAUpbW9PI4jxM15kLzV7cbJr0/vB7N7nXph\ndKNz/fAa9BeLEDB8sjWcdk4gJtrwCQpm9tsEzNlmKgmt4DUCgYAsjZo4rTicprFF/Qmu1B6x4Cbl\nJBo4BX7LmvB/ZLOUNHqtvhIhMV5H4d2akY5fAxQne21HWzt1LtcfgaBTac1HRDgZfTaDq5oggZO5\naldofTDYeggrvrWCCs9MvFfAOq2KFvhK4bqwPj0wzuYCYpvdetD0G9UufAtrXmSBevUUiA==\n-----END RSA PRIVATE KEY-----\n",
+                                                                                                                "type": "PublicKey",
+                                                                                                                "user": "root"
+                                                                                                },
+                                                                                                "ip": "54.169.227.5"
+                                                                                },
+                                                                                "networkInterfaces": [{
+                                                                                                "networkId": "ServiceDept",
+                                                                                                "privateIp": "10.0.0.211",
+                                                                                                "publicIp": null,
+                                                                                                "macaddress": "06:a5:e0:0c:e6:37"
+                                                                                }]
+                                                                }]
+                                                },
+                                                "NaptServer": {
+                                                                "description": null,
+                                                                "servers": [{
+                                                                                "id": 0,
+                                                                                "description": null,
+                                                                                "connectionInformation": {
+                                                                                                "protocol": "SSH",
+                                                                                                "port": 22,
+                                                                                                "auth": {
+                                                                                                                "keyfile": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEArbcYjCeXT3zrIA6y3CSfR+oA528krRHjb+8G0PzQ/yVOKVhKUsXKx7Q0h/9L\nJ+i9b00vQax9VdPe5fQXrlQgFbtYtbEe5cjA/QeBnbg+cnW82U8nzhOGFgfBqZUX4yCjyUzQUGa+\n+aRf0kRwlTDDukDWC2P490x46GKi/c6wxeVJU1NKgLAY9TsXNxXnnfRKgSh1FFyA7a2kkStoL5IR\nT+O18NLRT4gmudgAPsnRKDcNgH2kXLlJMRN4KdnmDuz9Sg4xpnw0+CsnsQ8aXo7p3/BaqiMkqAeH\nxBATHeWx41aNwp6FjWSScKTkxfr0g1GQEYqG4E2icIik28f7cVGx9QIDAQABAoIBAQCaGmVCYBTQ\nxQZoR+HPfQV37FSk+mnUxpu2vpqTZtOYpGV0NAiq6R/8jRZU1tq7KrJyPEyBvBzruKpx4FnpomNc\nI/iMJfY87hyV2sTXP4zWSTAgryGmpJc8j+DzKXopWNkzSFs8GAmuuGzwwRoGn13iqoW3URaZe1N/\nA5GICoWy5zl7Gy61UalnL1PiVVa/1vzIcoTgfV8pSFLNZS2MnK55EyWLE+YfXwSv3KTDWzvRi1Tt\nqwi0q4Qx1fBnWiIxQb2vtXaMtSCk54CE+wLlcp2vSJoO8KtyHagmpqvNtIcdpd3DfFImF7FyYwxe\n/jT+XjS1mEU3/451SrGJS4kk2myBAoGBAP792UmHX23qusdk8dMROdz+SmwEtAO596BqM4tFPTQe\nAUfX3f3mDS4ivzfuHmniyxhQFbaaSg/H6f4nHU0d1k+OAxljM5+YJecmsDy87aUnJY33JAXg/WNa\nqGVWRWg019D2aKibonoFKbY+aiGdUahsSqPjT/JUAvjNF/FmlwhRAoGBAK5m9rBdVJV6iTXpykh3\n61iLi4CrHJsmhVv0oSzT4eOAYTLl9+ljRoS8LzpTZk0n9V2WWgn+sD+mE7Ac6p008+orBzyAWaLQ\nWTVRmKWH9fTzqcuVMRQb9QXTL8f4FClwlIKUdIqePt6qZMG5MoW/8x8nkxjSbxSDGMQAri3ZFEpl\nAoGBAO6gev7vm+POXlsJYbGHlmH064qo4Bn4p/9MQ85azor+ZW5pWssnxj/drptV0MqAvlWTZK6N\nNzALgzQgQLCRcqTino3co0wAY8AtGZLNr4v11ZREq0aBJkAbcCndkXiSs0FPx+O6OlP8juuI/2NT\nyT5XkYZLzN5XtqxFqtlzi3XxAoGAHw18PRjRF7Byv+O5vb+EawaltypAdKueMSpUjFvJq61PITXr\nN2YSx02Ohy8UVwaXXKuJqp/rl9mlRcVQTN+B0p8IsdAUpbW9PI4jxM15kLzV7cbJr0/vB7N7nXph\ndKNz/fAa9BeLEDB8sjWcdk4gJtrwCQpm9tsEzNlmKgmt4DUCgYAsjZo4rTicprFF/Qmu1B6x4Cbl\nJBo4BX7LmvB/ZLOUNHqtvhIhMV5H4d2akY5fAxQne21HWzt1LtcfgaBTac1HRDgZfTaDq5oggZO5\naldofTDYeggrvrWCCs9MvFfAOq2KFvhK4bqwPj0wzuYCYpvdetD0G9UufAtrXmSBevUUiA==\n-----END RSA PRIVATE KEY-----\n",
+                                                                                                                "type": "PublicKey",
+                                                                                                                "user": "root"
+                                                                                                },
+                                                                                                "ip": "54.169.227.5"
+                                                                                },
+                                                                                "networkInterfaces": [{
+                                                                                                "networkId": "ServiceDept",
+                                                                                                "privateIp": "10.0.0.69",
+                                                                                                "publicIp": "54.169.227.5",
+                                                                                                "macaddress": "06:57:fc:2d:a8:63"
+                                                                                }]
+                                                                }]
+                                                },
+                                                "HAProxy": {
+                                                                "description": null,
+                                                                "servers": [{
+                                                                                "id": 0,
+                                                                                "description": null,
+                                                                                "connectionInformation": {
+                                                                                                "protocol": "SSH",
+                                                                                                "port": 10004,
+                                                                                                "auth": {
+                                                                                                                "keyfile": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEArbcYjCeXT3zrIA6y3CSfR+oA528krRHjb+8G0PzQ/yVOKVhKUsXKx7Q0h/9L\nJ+i9b00vQax9VdPe5fQXrlQgFbtYtbEe5cjA/QeBnbg+cnW82U8nzhOGFgfBqZUX4yCjyUzQUGa+\n+aRf0kRwlTDDukDWC2P490x46GKi/c6wxeVJU1NKgLAY9TsXNxXnnfRKgSh1FFyA7a2kkStoL5IR\nT+O18NLRT4gmudgAPsnRKDcNgH2kXLlJMRN4KdnmDuz9Sg4xpnw0+CsnsQ8aXo7p3/BaqiMkqAeH\nxBATHeWx41aNwp6FjWSScKTkxfr0g1GQEYqG4E2icIik28f7cVGx9QIDAQABAoIBAQCaGmVCYBTQ\nxQZoR+HPfQV37FSk+mnUxpu2vpqTZtOYpGV0NAiq6R/8jRZU1tq7KrJyPEyBvBzruKpx4FnpomNc\nI/iMJfY87hyV2sTXP4zWSTAgryGmpJc8j+DzKXopWNkzSFs8GAmuuGzwwRoGn13iqoW3URaZe1N/\nA5GICoWy5zl7Gy61UalnL1PiVVa/1vzIcoTgfV8pSFLNZS2MnK55EyWLE+YfXwSv3KTDWzvRi1Tt\nqwi0q4Qx1fBnWiIxQb2vtXaMtSCk54CE+wLlcp2vSJoO8KtyHagmpqvNtIcdpd3DfFImF7FyYwxe\n/jT+XjS1mEU3/451SrGJS4kk2myBAoGBAP792UmHX23qusdk8dMROdz+SmwEtAO596BqM4tFPTQe\nAUfX3f3mDS4ivzfuHmniyxhQFbaaSg/H6f4nHU0d1k+OAxljM5+YJecmsDy87aUnJY33JAXg/WNa\nqGVWRWg019D2aKibonoFKbY+aiGdUahsSqPjT/JUAvjNF/FmlwhRAoGBAK5m9rBdVJV6iTXpykh3\n61iLi4CrHJsmhVv0oSzT4eOAYTLl9+ljRoS8LzpTZk0n9V2WWgn+sD+mE7Ac6p008+orBzyAWaLQ\nWTVRmKWH9fTzqcuVMRQb9QXTL8f4FClwlIKUdIqePt6qZMG5MoW/8x8nkxjSbxSDGMQAri3ZFEpl\nAoGBAO6gev7vm+POXlsJYbGHlmH064qo4Bn4p/9MQ85azor+ZW5pWssnxj/drptV0MqAvlWTZK6N\nNzALgzQgQLCRcqTino3co0wAY8AtGZLNr4v11ZREq0aBJkAbcCndkXiSs0FPx+O6OlP8juuI/2NT\nyT5XkYZLzN5XtqxFqtlzi3XxAoGAHw18PRjRF7Byv+O5vb+EawaltypAdKueMSpUjFvJq61PITXr\nN2YSx02Ohy8UVwaXXKuJqp/rl9mlRcVQTN+B0p8IsdAUpbW9PI4jxM15kLzV7cbJr0/vB7N7nXph\ndKNz/fAa9BeLEDB8sjWcdk4gJtrwCQpm9tsEzNlmKgmt4DUCgYAsjZo4rTicprFF/Qmu1B6x4Cbl\nJBo4BX7LmvB/ZLOUNHqtvhIhMV5H4d2akY5fAxQne21HWzt1LtcfgaBTac1HRDgZfTaDq5oggZO5\naldofTDYeggrvrWCCs9MvFfAOq2KFvhK4bqwPj0wzuYCYpvdetD0G9UufAtrXmSBevUUiA==\n-----END RSA PRIVATE KEY-----\n",
+                                                                                                                "type": "PublicKey",
+                                                                                                                "user": "root"
+                                                                                                },
+                                                                                                "ip": "54.169.227.5"
+                                                                                },
+                                                                                "networkInterfaces": [{
+                                                                                                "networkId": "ServiceDept",
+                                                                                                "privateIp": "10.0.0.167",
+                                                                                                "publicIp": "54.254.217.126",
+                                                                                                "macaddress": "06:a6:83:dc:ee:d9"
+                                                                                }]
+                                                                }]
+                                                },
+                                                "CoOrdinator": {
+                                                                "description": null,
+                                                                "servers": [{
+                                                                                "id": 0,
+                                                                                "description": null,
+                                                                                "connectionInformation": {
+                                                                                                "protocol": "SSH",
+                                                                                                "port": 10000,
+                                                                                                "auth": {
+                                                                                                                "keyfile": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEArbcYjCeXT3zrIA6y3CSfR+oA528krRHjb+8G0PzQ/yVOKVhKUsXKx7Q0h/9L\nJ+i9b00vQax9VdPe5fQXrlQgFbtYtbEe5cjA/QeBnbg+cnW82U8nzhOGFgfBqZUX4yCjyUzQUGa+\n+aRf0kRwlTDDukDWC2P490x46GKi/c6wxeVJU1NKgLAY9TsXNxXnnfRKgSh1FFyA7a2kkStoL5IR\nT+O18NLRT4gmudgAPsnRKDcNgH2kXLlJMRN4KdnmDuz9Sg4xpnw0+CsnsQ8aXo7p3/BaqiMkqAeH\nxBATHeWx41aNwp6FjWSScKTkxfr0g1GQEYqG4E2icIik28f7cVGx9QIDAQABAoIBAQCaGmVCYBTQ\nxQZoR+HPfQV37FSk+mnUxpu2vpqTZtOYpGV0NAiq6R/8jRZU1tq7KrJyPEyBvBzruKpx4FnpomNc\nI/iMJfY87hyV2sTXP4zWSTAgryGmpJc8j+DzKXopWNkzSFs8GAmuuGzwwRoGn13iqoW3URaZe1N/\nA5GICoWy5zl7Gy61UalnL1PiVVa/1vzIcoTgfV8pSFLNZS2MnK55EyWLE+YfXwSv3KTDWzvRi1Tt\nqwi0q4Qx1fBnWiIxQb2vtXaMtSCk54CE+wLlcp2vSJoO8KtyHagmpqvNtIcdpd3DfFImF7FyYwxe\n/jT+XjS1mEU3/451SrGJS4kk2myBAoGBAP792UmHX23qusdk8dMROdz+SmwEtAO596BqM4tFPTQe\nAUfX3f3mDS4ivzfuHmniyxhQFbaaSg/H6f4nHU0d1k+OAxljM5+YJecmsDy87aUnJY33JAXg/WNa\nqGVWRWg019D2aKibonoFKbY+aiGdUahsSqPjT/JUAvjNF/FmlwhRAoGBAK5m9rBdVJV6iTXpykh3\n61iLi4CrHJsmhVv0oSzT4eOAYTLl9+ljRoS8LzpTZk0n9V2WWgn+sD+mE7Ac6p008+orBzyAWaLQ\nWTVRmKWH9fTzqcuVMRQb9QXTL8f4FClwlIKUdIqePt6qZMG5MoW/8x8nkxjSbxSDGMQAri3ZFEpl\nAoGBAO6gev7vm+POXlsJYbGHlmH064qo4Bn4p/9MQ85azor+ZW5pWssnxj/drptV0MqAvlWTZK6N\nNzALgzQgQLCRcqTino3co0wAY8AtGZLNr4v11ZREq0aBJkAbcCndkXiSs0FPx+O6OlP8juuI/2NT\nyT5XkYZLzN5XtqxFqtlzi3XxAoGAHw18PRjRF7Byv+O5vb+EawaltypAdKueMSpUjFvJq61PITXr\nN2YSx02Ohy8UVwaXXKuJqp/rl9mlRcVQTN+B0p8IsdAUpbW9PI4jxM15kLzV7cbJr0/vB7N7nXph\ndKNz/fAa9BeLEDB8sjWcdk4gJtrwCQpm9tsEzNlmKgmt4DUCgYAsjZo4rTicprFF/Qmu1B6x4Cbl\nJBo4BX7LmvB/ZLOUNHqtvhIhMV5H4d2akY5fAxQne21HWzt1LtcfgaBTac1HRDgZfTaDq5oggZO5\naldofTDYeggrvrWCCs9MvFfAOq2KFvhK4bqwPj0wzuYCYpvdetD0G9UufAtrXmSBevUUiA==\n-----END RSA PRIVATE KEY-----\n",
+                                                                                                                "type": "PublicKey",
+                                                                                                                "user": "root"
+                                                                                                },
+                                                                                                "ip": "54.169.227.5"
+                                                                                },
+                                                                                "networkInterfaces": [{
+                                                                                                "networkId": "ServiceDept",
+                                                                                                "privateIp": "10.0.0.53",
+                                                                                                "publicIp": null,
+                                                                                                "macaddress": "06:74:4e:56:d0:a7"
+                                                                                }]
+                                                                }]
+                                                },
+                                                "DbSlave": {
+                                                                "description": null,
+                                                                "servers": [{
+                                                                                "id": 0,
+                                                                                "description": null,
+                                                                                "connectionInformation": {
+                                                                                                "protocol": "SSH",
+                                                                                                "port": 10002,
+                                                                                                "auth": {
+                                                                                                                "keyfile": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEArbcYjCeXT3zrIA6y3CSfR+oA528krRHjb+8G0PzQ/yVOKVhKUsXKx7Q0h/9L\nJ+i9b00vQax9VdPe5fQXrlQgFbtYtbEe5cjA/QeBnbg+cnW82U8nzhOGFgfBqZUX4yCjyUzQUGa+\n+aRf0kRwlTDDukDWC2P490x46GKi/c6wxeVJU1NKgLAY9TsXNxXnnfRKgSh1FFyA7a2kkStoL5IR\nT+O18NLRT4gmudgAPsnRKDcNgH2kXLlJMRN4KdnmDuz9Sg4xpnw0+CsnsQ8aXo7p3/BaqiMkqAeH\nxBATHeWx41aNwp6FjWSScKTkxfr0g1GQEYqG4E2icIik28f7cVGx9QIDAQABAoIBAQCaGmVCYBTQ\nxQZoR+HPfQV37FSk+mnUxpu2vpqTZtOYpGV0NAiq6R/8jRZU1tq7KrJyPEyBvBzruKpx4FnpomNc\nI/iMJfY87hyV2sTXP4zWSTAgryGmpJc8j+DzKXopWNkzSFs8GAmuuGzwwRoGn13iqoW3URaZe1N/\nA5GICoWy5zl7Gy61UalnL1PiVVa/1vzIcoTgfV8pSFLNZS2MnK55EyWLE+YfXwSv3KTDWzvRi1Tt\nqwi0q4Qx1fBnWiIxQb2vtXaMtSCk54CE+wLlcp2vSJoO8KtyHagmpqvNtIcdpd3DfFImF7FyYwxe\n/jT+XjS1mEU3/451SrGJS4kk2myBAoGBAP792UmHX23qusdk8dMROdz+SmwEtAO596BqM4tFPTQe\nAUfX3f3mDS4ivzfuHmniyxhQFbaaSg/H6f4nHU0d1k+OAxljM5+YJecmsDy87aUnJY33JAXg/WNa\nqGVWRWg019D2aKibonoFKbY+aiGdUahsSqPjT/JUAvjNF/FmlwhRAoGBAK5m9rBdVJV6iTXpykh3\n61iLi4CrHJsmhVv0oSzT4eOAYTLl9+ljRoS8LzpTZk0n9V2WWgn+sD+mE7Ac6p008+orBzyAWaLQ\nWTVRmKWH9fTzqcuVMRQb9QXTL8f4FClwlIKUdIqePt6qZMG5MoW/8x8nkxjSbxSDGMQAri3ZFEpl\nAoGBAO6gev7vm+POXlsJYbGHlmH064qo4Bn4p/9MQ85azor+ZW5pWssnxj/drptV0MqAvlWTZK6N\nNzALgzQgQLCRcqTino3co0wAY8AtGZLNr4v11ZREq0aBJkAbcCndkXiSs0FPx+O6OlP8juuI/2NT\nyT5XkYZLzN5XtqxFqtlzi3XxAoGAHw18PRjRF7Byv+O5vb+EawaltypAdKueMSpUjFvJq61PITXr\nN2YSx02Ohy8UVwaXXKuJqp/rl9mlRcVQTN+B0p8IsdAUpbW9PI4jxM15kLzV7cbJr0/vB7N7nXph\ndKNz/fAa9BeLEDB8sjWcdk4gJtrwCQpm9tsEzNlmKgmt4DUCgYAsjZo4rTicprFF/Qmu1B6x4Cbl\nJBo4BX7LmvB/ZLOUNHqtvhIhMV5H4d2akY5fAxQne21HWzt1LtcfgaBTac1HRDgZfTaDq5oggZO5\naldofTDYeggrvrWCCs9MvFfAOq2KFvhK4bqwPj0wzuYCYpvdetD0G9UufAtrXmSBevUUiA==\n-----END RSA PRIVATE KEY-----\n",
+                                                                                                                "type": "PublicKey",
+                                                                                                                "user": "root"
+                                                                                                },
+                                                                                                "ip": "54.169.227.5"
+                                                                                },
+                                                                                "networkInterfaces": [{
+                                                                                                "networkId": "ServiceDept",
+                                                                                                "privateIp": "10.0.0.188",
+                                                                                                "publicIp": null,
+                                                                                                "macaddress": "06:94:87:3a:7a:37"
+                                                                                }]
+                                                                }]
+                                                }
+                                }]
+                },
+                "DBConnectionURL": "jdbc:mysql://10.0.0.178",
+                "DbApplication": ["init.sql"],
+                "elastic-loadbalancer": {
+                                "healthcheck": {
+                                                "path": "/webapps/sample/images/cart.png"
+                                },
+                                "listeners": {
+                                                "ssl_certificate_id": null,
+                                                "loadbalancer_protocol": "HTTP"
+                                },
+                                "name": "CASSIOPEIA-A22-Lb0-16WVE67E9ODYI"
+                },
+                "run_list": ["jetty_Figateway::deploy"],
+                "WebApplications": ["sample.war"],
+                "infinispan6": {
+                                "oob_thread_pool": {
+                                                "max_threads": 4,
+                                                "min_threads": 4
+                                }
+                },
+                "self": "FIGDashboard0",
+                "mysql": {
+                                "max_connections": 151,
+                                "root": {
+                                                "password": "javadude"
+                                }
+                },
+                "DBMgrNodeIPs": "10.0.0.178",
+                "CoOrdinatorIPs": "10.0.0.53",
+                "HAProxyIPs": "10.0.0.167"
+}

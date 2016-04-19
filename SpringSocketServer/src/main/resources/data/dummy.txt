@@ -1,0 +1,618 @@
+EMAIL 
+SOLUTIONS 
+EXPERTS 
+theEMAIL 
+SOLUTIONS 
+EXPERTS 
+the
+ATMAIL 
+
+
+FEATURES 
+
+
+OVERVIEW 
+
+
+October 2015 
+
+
+1. ATMAIL 
+WEBMAIL 
+
+
+INTERFACE 
+
+
+
+WEBMAIL USER INTERFACE 
+
+Send, Receive, Forward email with all the 
+features you expect and more… 
+
+FEATURE DESCRIPTION BASIC PRO 
+Email Composer 
+Rich HTML composer that supports font sizing, colours, 
+styles, images and bullet points. 
+Click the “To”, “CC” or “BCC” to dynamically access your 
+address book and insert recipients within the composer 
+interface. 
+. . 
+Attachments Drag & drop to upload one or more files to your email or 
+use the “Attach from Computer” to browse to a file on 
+your local machine. Standard and Pro licensed users can 
+also use “Attach from Storage” to browse to files they 
+have uploaded to the atmail storage tab. 
+Attachments received can display with a preview image. 
+. . 
+Read Receipt Request a “read receipt” once the recipient opens the 
+email. . . 
+Drafts Drafts can automatically save to the drafts folder every 
+few seconds but you can also use the “Save as Draft” 
+button to manually save. . . 
+Flag Emails Highlight emails for your attention later. . . 
+Mark / 
+Unmark Spam 
+If an email gets past the advanced spam filtering, mark 
+the email as spam. 
+Spam-reporting is a feature for Webmail-Only, where 
+emails marked as spam by the user will be reported to 
+the system administrator. 
+. . 
+Trash Move emails to trash or delete permanently, if admins 
+allow the option, the user can choose. . . 
+Folders & Folder 
+Management 
+Sort and store your mail with custom folders and 
+sub-folders. Atmail supports Drag & Drop for message 
+and folder management. 
+The folder manager provides easy access to rename, 
+remove and check the size of your folder structure. 
+Lots of custom folders? Clicking the top level “Folder” 
+header will hide/show all custom folders instantly. 
+. . 
+Email Thread 
+Support 
+Groups email discussions into threaded messages. . . 
+Multiple Views & 
+Sorting 
+Two-pane (list) view or three-pane (message preview) 
+view. Sort messages by sender, subject, date and size. . . 
+Assistive 
+Technologies / 
+Screen Reader 
+Support 
+Accessibility interface supports assistive screen-reading 
+technologies, including JAWS, Window Eyes & VoiceOver . . 
+Multilingual Support Translate the email interface into packaged languages or 
+add your own translation files. . . 
+
+www.atmail.com 
+
+
+FEATURE DESCRIPTION BASIC PRO 
+Email Filters 
+Auto-filters group specific emails for viewing in dedicated 
+folders: 
+• Unread email 
+• Purchases (any email containing the words “purchase”, 
+“invoice”, “payment” or “receipt” 
+• Friends (anyone in your personal address book and 
+flagged as a favourite) 
+• Newsletters (any email that contains “list unsubscribe” 
+in its text) 
+• Notifications (emails from eBay, LinkedIn, Facebook, 
+Twitter) 
+• Flagged email 
+Or you can create custom filters in the settings panel to 
+automatically move email that meets your specific criteria 
+to a folder of your choice. 
+. . 
+Email Signature Create a custom email signature. . . 
+UTF8 Support Support UTF8 character set. . . 
+Right-click Support Right-click on email to perform any action, such as reply, 
+forward, delete, move, mark spam, mark unread… . . 
+Show More Tabs If you have multiple emails open in two-pane view, the 
+dropdown allows you to switch easily between them. . . 
+Message Navigation Next/Previous Message Navigation (three pane view). . . 
+Print Email Easily print using the print icon in the email view header. . . 
+Message Selection Select individual messages with the checkbox or “Shift + 
+Click” to select multiple messages. . . 
+Mobile UI Javascript Mobile UI for Webmail access on Smart-
+phones and Tablets. . . 
+3rd Party Email 
+Clients 
+Connect your third party email client to your account via 
+IMAP or POP. Use the atmail DavSync plugin to synchronise 
+contact and calendar data with Microsoft Outlook. . . 
+Search 
+Search within folders for email with our powerful search 
+tool built on a lucene full-text index. Including: 
+• Wildcard Search 
+• Phrase Search 
+• Field Search (To, From, Subject etc) 
+• Advanced Search (Relative Date, From, To, Subject, 
+Body, Unread, Flagged, Boolean). 
+. . 
+Export Export email in .eml format . . 
+Events Accept invitations from .ICS files to automatically add the 
+event to your calendar. -. 
+One-Click 
+iOS Provisionning 
+Provision your account details on your iOS device with 
+one click. -. 
+Microsoft Exchange 
+ActiveSync 
+Add your account to your mobile device using Microsoft 
+Exchange ActiveSync for constant device synchronization. 
+-. 
+
+www.atmail.com 
+
+
+CONTACTS 
+
+Visualise and manage your contacts 
+
+efficiently. 
+
+FEATURE DESCRIPTION BASIC PRO 
+Address Book Web based address book . . 
+Add Contact 
+Add contacts to your address book using your choice of 
+the available fields, including: 
+• First Name 
+• Last Name 
+• Profile Image 
+• Multiple Phone Options (Home, Work, Mobile, Fax) 
+• Multiple Email Addresses 
+• Multiple Addresses (Home, Work) 
+• Company 
+• Title 
+• Middle Name 
+• Date of Birth 
+• URL 
+• Work Title 
+• Work Department 
+• Notes 
+• Mark as a “Favourite” contact 
+. . 
+Groups & 
+Distribution Lists 
+You can easily add custom groups to your address book 
+in addition to the Personal, Remembered, Favourite, 
+Global groups (including LDAP support) and Shared Contact 
+Groups that atmail comes packaged with. 
+You can move or copy contacts between groups and you 
+can share individual contacts with others. 
+. . 
+Search Search for name, number or email address. . . 
+Quick-Compose 
+Select a contact and click the compose icon to quickly 
+switch to email with the recipient or recipients added to 
+the address fields. . . 
+Import Import contacts in vCard, .VCF or .CSV format. . . 
+Export Export one or multiple contacts in .VCF or .CSV format. . . 
+3rd Party Clients 
+Synchronise with your computer or device using Card-
+DAV or with Microsoft Outlook using the atmail DavSync 
+plugin. . . 
+Microsoft Exchange 
+ActiveSync 
+Synchronise with your mobile device using Microsoft’s 
+Exchange ActiveSync. 
+-. 
+
+www.atmail.com 
+
+
+CALENDAR 
+
+Create, organise and share your calendars. 
+
+FEATURE DESCRIPTION BASIC PRO 
+Upcoming events Web-based Calendar -. 
+Add / Remove event 
+Click within the calendar to add an event or accept an 
+event from the .ics file attached to email received. 
+Specify: 
+Event Title 
+• Event Date & Time (including “All Day”) 
+• Timezone 
+• Location 
+• Attendees (Input an email address and toggle to 
+email an invitation) 
+• Notes 
+• Category / Subcategory (General (including urgency), 
+Birthday (Friend, Family, Colleague etc), 
+Business (Conference, Deadline, Meeting, Lunch, Interview 
+etc), Entertainment (Concert, Movie, Performance, 
+Sports etc), Friends & Family (Get Together, 
+Party, Dinner etc), Personal (Doctor, Dentist, Pay a 
+Bill, Health, Haircut etc) and Special Event (Anniversary, 
+Graduation, Holiday, Wedding etc) 
+• Availability (Busy, Out of Office etc) 
+• Calendar event appears in (Personal, Custom, 
+Shared) 
+• Event Reminder (Minutes, Hours, Days or Specific 
+Date before) 
+• Repeat Options (None, Daily, Weekly, Monthly, 
+Annually, End Repeat Date, Interval (Weekly), Day of 
+the Week) 
+-. 
+Multiple Views View your calendar by Day, Week or Month -. 
+Multiple Calendars Add multiple calendars -. 
+Share Calendars Set permissions to share your calendar with another 
+person. -. 
+Multiple Colours Change the colour of a calendar to easily identify what 
+calendar events in your schedule belong to. -. 
+Set Starting Day Choose which day of the week your calendar starts on. -. 
+Drag & Drop Events Easily reschedule your events with drag & drop. -. 
+Event Notifications Pop-up notifications to remind you of upcoming events. -. 
+
+www.atmail.com 
+
+
+FEATURE DESCRIPTION BASIC PRO 
+Mini-Cal Sidebar mini-cal with upcoming event view. -. 
+3rd Party Clients 
+Synchronise with your computer or device using CalDAV 
+or with Microsoft Outlook using the atmail DavSync 
+plugin. 
+-. 
+Microsoft Exchange 
+ActiveSync 
+Synchronise with your mobile device using Microsoft’s 
+Exchange ActiveSync. -. 
+
+
+TASKS 
+
+Create tasks and organise them per priority. 
+
+FEATURE DESCRIPTION BASIC PRO 
+Web-based 
+Task Manager 
+Supports one or multiple personal and/or shared task 
+lists. -. 
+3rd Party Clients Add 
+/ Remove Tasks 
+Specify: 
+• Task Name 
+• Location 
+• Priority (1 - 10) 
+• Status (Not Started, In Progress, Complete, Deferred, 
+Waiting on Someone Else) 
+• Percent Complete (set in 5% increments) 
+• Timezone 
+• Start Date / Time 
+• Due Date / Time 
+• Notes 
+-. 
+Synchronisation Synchronise tasks with iOS Reminders or, as an optional 
+extra, Microsoft ActiveSync. -. 
+
+www.atmail.com 
+
+
+STORAGE 
+
+Access, organise and share your files. 
+
+FEATURE DESCRIPTION BASIC PRO 
+Web-based File 
+Storage 
+Access in your browser or connect as a drive to your 
+compatible desktop via WebDAV. -. 
+Folders 
+Atmail has a default Home folder with sub-directories for 
+Attachments, Documents, Music and Picture directories. 
+You can add as many custom folders as you wish. 
+-. 
+Upload Drag & drop to upload files or use the interface to 
+browse to files for upload. -. 
+Share Share files via a URL. -. 
+Notes & Comments Add/Remove notes or comments to associate with a file 
+(stored with a timestamp). -. 
+Rename Files Rename files within the browser. -. 
+
+www.atmail.com 
+
+
+CUSTOM USER SETTINGS 
+
+
+FEATURE DESCRIPTION BASIC PRO 
+Colour Scheme Personalise the interface by selecting from our packaged 
+colour schemes. . . 
+View Quota Easily view the size of your inbox and how much space 
+you have left. . . 
+Set Your Name Set the name you wish to use with all outbound messages. 
+. . 
+Set a Reply To 
+address 
+You can set a reply-to address if you want recipients to 
+reply to a different address than the one you are sending 
+from. . . 
+Threaded Messages 
+Toggle the feature On/Off, set the thread limit to determine 
+how old emails can be before they are no longer 
+included and choose if you want the emails you send to 
+be included in the thread. 
+. . 
+Main Tab Text 
+Toggle On/Off to choose if you want navigation tabs 
+(Mail, Contacts, Calendar, Tasks, Storage, Settings) to be 
+icons-only or icons and text. . . 
+Display email 
+images 
+Toggle On/Off to select if you want to display images 
+embedded in the emails you receive. . . 
+Automatically 
+convert links 
+Toggle On/Off to automatically convert plain-text URL 
+links in email messages to be clickable. . . 
+Automatic Saving of 
+Drafts 
+Toggle On/Off to automatically save emails you are composing 
+to the drafts folder. . . 
+Notifications 
+Toggle On/Off notifications and actions including: 
+• Automatically check current folder for new messages 
+• Play an audio cue when new mail arrives 
+• Show a new-message favicon 
+. . 
+Delete Trash on 
+Logout 
+The user can choose whether to delete their trash when 
+they logout of webmail. (Great for managing quotas!) . . 
+Trash Button Action The user can choose whether the trash button moves 
+mail to trash or permanently deletes mail. . . 
+Default View Set two pane or three pane view or toggle the accessibility 
+interface as your default interface. . . 
+Enable Message 
+Preview Display an inline text preview of a message’s content. . . 
+Show CC & BCC by 
+Default Toggle On/Off . . 
+Select your interface 
+language 
+Choose from the available languages. Atmail packages a 
+number of language packs by default and system administrators 
+can modify these or add their own. . . 
+Date Display 
+Select how you wish the date to display: 
+• DD/MM/YY 
+• MM/DD/YY or 
+• Time since delivery 
+. . 
+
+www.atmail.com 
+
+
+FEATURE DESCRIPTION BASIC PRO 
+Messages per page Set how many messages you would like to display per 
+page from the available options (10, 25, 50, 100, 200). . . 
+Set your time zone Select your preferred time zone. . . 
+Signature Editor Compose your email signature. . . 
+Enable Empty folder 
+If the system administrator has enabled the feature, you 
+will be able to empty any given folder. By default empty 
+folder action is ONLY available for SPAM and TRASH 
+folders. However, if administrator has enabled the feature, 
+user can choose to enable/disable feature. 
+. . 
+Spam Management Set your spam filter sensitivity, the tag to prefix message 
+subjects with and add whitelist and blacklist senders. . . 
+Auto-Forward Set a forwarding address to automatically forward all 
+received email. . . 
+Auto-Reply Set an auto-response for messages received. . . 
+Password 
+Management 
+Change your password and set up your password recovery 
+details (recovery email address and secret questions) 
+to allow you to reset your password if you ever forget it! . . 
+Calendar Week 
+Start Day 
+Select which day you would like your calendar week to 
+start on -. 
+
+www.atmail.com 
+
+
+2. ATMAIL 
+WEBADMIN 
+
+
+INTERFACE 
+
+
+
+FEATURE DESCRIPTION BASIC PRO 
+Email Archiving Store and search all inbound/outbound email for archiving 
+in atmail’s ArchiveVault. -. 
+Admin Dashboard 
+Logs & Reporting: 
+• Logins 
+• Received Mail 
+• Sent Mail 
+• Spam 
+• Viruses 
+• Search Logs 
+. . 
+User & Domain Management 
+• SubAdmin management (including customizable 
+SubAdmin panel) 
+• User Groups 
+• Add Users (import with .CSV) 
+• Enable/Disable “Sign-up Page” 
+• User permission management 
+• Add / Remove / Manage Domains 
+• Add / Remove / Manage Groups 
+• Define User Setting Defaults 
+• User quota management and settings 
+. . 
+Web-based Service 
+Configuration 
+Full access to configure services via Web GUI. (Please 
+see the following section for details on services and their 
+configuration) . . 
+Mass-mail 
+Send to: 
+• All 
+• SubAdmins 
+• Specific Cohort (determined by filter rules against 
+account, group and domains) 
+. . 
+Mail Aliases & Relay 
+Supports mail alias and mail relay. 
+Multiple Alias Types: 
+• Local 
+• Deliver Locally and Alias 
+• Domain / Catch-All 
+• Virtual Domain (divert email from one domain to 
+another) 
+• Alias to Maildir/File 
+. . 
+Plugin Management Customise and extend the atmail product using our plugin 
+framework. . . 
+Groupware 
+Permission 
+Management 
+Enable/Disable Groupware functionality at a system-wide 
+or domain level and connect to your LDAP server. . . 
+Updating Version checking, notification and system updates. . . 
+LDAP Contacts Populate the Global Contacts group from your LDAP 
+server. . . 
+Domain 
+Administration 
+• Multiple administration levels 
+• Multiple domains 
+• Cross-domain user search 
+• .CSV export for account information 
+. . 
+Branding 
+• Logos 
+• Editable HTML templates for custom “Welcome 
+mail” 
+• Editable footer for outgoing email 
+• Easy to edit source CSS 
+. . 
+
+www.atmail.com 
+
+
+3. SERVICES 
+& SECURITY 
+
+
+
+FEATURE DESCRIPTION BASIC PRO 
+IMAP/IMAPS & 
+POP3/POP3S 
+Support for: 
+• Domain & Group Inclusion/Exclusion for services 
+• Allow/Disallow IMAP/POP connections 
+• SSL Certificates 
+• Configuration of maximum number of allowed connections 
+by IP 
+• Configuration of maximum number of allowed processes 
+. . 
+SMTP/SMTPS/TLS 
+Including support for: 
+• SMTP Authentication 
+• SMTP TLS 
+• Verify host SSL certificates 
+• Force secure connection prior to SMTP Auth & Mail 
+• Verification of senders to prevent unauthorized messages 
+from reaching the SMTP server 
+• Limit controls for number of messages a user can 
+send per hour 
+• DKIM 
+. . 
+AntiSpam 
+• SpamAssassin & automatic updates for 
+SpamAssassin 
+• Specify: 
+• Spam points 
+• Reject points 
+• Spam Tag 
+• Spam Treatment (Mark as spam, move to 
+folder etc) 
+• Trusted Networks 
+• Attachment checking 
+• Support for: 
+• DNSBL 
+• URI-DNSBL 
+• SPF 
+• Auto White List 
+• Bayes Filtering 
+• Whitelists 
+• Blacklists 
+. . 
+Spamhaus Optional full Anti-Spam Datafeed Service. . . 
+iOS Profiles 
+Enable/Disable the download of a .mobileconfig profile 
+for iOS devices. 
+Configure organizational details, SSL and Server Hosts. 
+-. 
+Mobile UI Enable/Disable the Mobile UI for redirection when a user’s 
+mobile device is detected. . . 
+DAV • Enable/Disable CalDAV and CardDAV servers 
+• Set WebDAV base URL . . 
+Anti-Virus Set AV rules and update frequency. . . 
+API Access 
+JSON API available by default. System Administrators 
+can opt to enable/disable JSON-P API access and the 
+atmail geo-location API. . . 
+
+www.atmail.com 
+
+
+FEATURE DESCRIPTION BASIC PRO 
+Password 
+Management 
+Enable and configure end-user password policies. 
+Password encryption & authentication support for: 
+• MD5 
+• MD5-Crypt 
+• PLAINTEXT 
+• LDAP 
+• Salted Sha 256 
+• Salted Sha 512 
+• Blowfish 
+Enable/Disable End-User Password Reset and configure 
+Security Questions. 
+. . 
+General Settings 
+and Options 
+• Enable/Disable Calendar & Storage Tabs 
+• Enable/Disable File Sharing 
+• Enable/disable support for external mail servers and 
+external domains 
+• Enable/disable confirmation messages on successful 
+email send 
+• Enable/Disable the display of browser compatibility 
+details on the login page 
+• Set webmail protocols (IMAP, IMAP SSL or both) . . 
+• Enable/disable Spell Check 
+• Configure SQL/Database details 
+• Enable/Disable debug mode 
+• Enable/Disable maintenance mode 
+• Allow/disallow users to change webmail theme 
+• Atmail license management 
+
+www.atmail.com 
+
+
+IF YOU HAVE ANY QUESTIONS 
+OUR INBOX IS ALWAYS OPEN. 
+
+
+
+Contact Sales 
+Contact Support 
+
+
+www.atmail.com 
+
+
